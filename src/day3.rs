@@ -32,7 +32,7 @@ pub fn solve_p1() {
         .into_iter()
         .map(|x| x.to_string())
         .collect::<String>();
-    let gamma = usize::from_str_radix(&gamma_str, 2).expect("Not a binary number"); 
-    let epsilon = usize::from_str_radix(&epsilon_str, 2).expect("Not a binary number"); 
-    println!("{}", gamma * epsilon); 
+    let gamma = usize::from_str_radix(&gamma_str, 2).expect("Not a binary number");
+    let epsilon = usize::from_str_radix(&epsilon_str, 2).expect("Not a binary number");
+    println!("{}", gamma * epsilon);
 }
